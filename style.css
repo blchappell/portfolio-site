@@ -89,6 +89,7 @@ body{
 
 #main-content{
 	position:relative;
+	height:100%;
 	border: 10px solid #1ED298;
 }
 
@@ -117,7 +118,7 @@ a {
 #container{
 	width: 700px;
 	margin:0 auto;
-	padding-bottom:100px;
+	padding-bottom:130px;
 }
 
 #logo{
@@ -148,15 +149,16 @@ span{
 p{
 	font-family:'Quattrocento','PT Sans', sans-serif;
 	letter-spacing:1.2;
-	margin-bottom:75px;
+	margin-bottom:120px;
 	
 }
 
 #footer{
 	clear:both;
 	height:50px;
+	position:absolute;
 	bottom:0;
-	margin: 0 auto;
+	margin-left:215px;
 	width:252px;
 	text-align: center;
 	vertical-align: middle;   
