@@ -99,29 +99,6 @@ a {
 	text-weight:bold;
 }
 
-/* styles for site borders */
-#left{
-	left:0;
-}
-#right{
-	right:0;
-}
-#left, #right{
-	top:0;
-	bottom:0;
-	width:10px;
-}
-#top{
-	top:0;
-	height:10px;
-}
-#top, #bottom, #left, #right{
-	background-color:#1ED298;
-	position:fixed;
-	z-index:1;
-}
-
-
 .button{
 	height:30px;
 	width:250px;
