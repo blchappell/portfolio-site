@@ -85,12 +85,11 @@ body{
 	top:10px;
 	color:white;
 	background-color:#2a2a2a;
-	border: 10px solid #1ED298;
-	
 }
 
 #main-content{
 	position:relative;
+	border: 10px solid #1ED298;
 }
 
 a {
