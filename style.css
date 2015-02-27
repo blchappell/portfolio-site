@@ -83,12 +83,13 @@ body{
 	font-family:'PT Sans', sans-serif;
 	width:100%;
 	top:10px;
+	color:white;
+	background-color:#2a2a2a;
 	
 }
 
 #main-content{
 	position:relative;
-	height:1800px;
 }
 
 a {
@@ -119,80 +120,28 @@ a {
 	z-index:1;
 }
 
-/* columns */
-section{
-	margin:0 auto;
-	max-width: 824px;
-	height:800px;
-}
 
-
-div.col{
-	float:left;
-	margin-left:12px;
-	border-right:1px solid lightgray;
-}
-div.col-last{
-	float:left;
-	margin-left:12px;
-}
-
-/* articles */
-
-h3{
-	font-size:11px;
-	color:#b3b3b3;
-	padding-left:2px;
-	font-weight:400 italic;
-	margin-bottom:2px;
-}
-
-h4{
-	font-size:18px;
-	padding-left:2px;
-	margin-bottom:2px;
-}
-
-div.rule{
-	height:2px;
-	width:12px;
-	background-color:black;
-	margin-top:12px;
-	margin-bottom:12px;
-	margin-left:2px;
-}
-.project p {
-	font-size:13px;
-	padding-left:2px;
-	margin-bottom:12px;
-}
 .button{
-	height:18px;
+	height:30px;
 	width:250px;
-	background-color:black;
-	margin-bottom:150px;
+	background-color:#1ED298;
+	margin:0 auto;
+	margin-right: 33%;
 	padding-top: 5px;
-	margin-right: 12px;
+	border-bottom:3px solid #228f66;
+	padding-top:13px;
+	text-align:center;
+	font-size:1.1em;
 }
-.button2{
-	height:18px;
-	width:250px;
-	background-color:black;
-	margin-bottom:50px;
-	padding-top: 5px;
-	margin-right: 12px;
-}
-.button a {
-	color:white;
-	font-size:13px;
-	padding-top:10px;
-}
-.button2 a {
-	color:white;
-	font-size:13px;
-	padding-top:10px;
+.button a{
+	color:rgba(255,255,255,.75);
 }
 /*---------------*/
+#container{
+	width: 700px;
+	margin:0 auto;
+	padding-bottom:100px;
+}
 
 #logo{
 	position:relative;
@@ -200,15 +149,30 @@ div.rule{
 
 }
 h1{
+	font-family:'Quattrocento','PT Sans', sans-serif;
+	color:#8d8c8c;
 	display:block;
 	position:absolute;
-	left:40%;
-	text-transform:uppercase;
-	font-size:22px;
+	font-size:1em;
 	letter-spacing:1.5;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 170px;    
+}
+
+h2{
+	font-size:40px;
+	line-height:1.7em;
+	padding-bottom:10px;
+}
+span{
+	border-bottom: 2px solid #1ED298;
+}
+p{
+	font-family:'Quattrocento','PT Sans', sans-serif;
+	letter-spacing:1.2;
+	margin-bottom:75px;
+	
 }
 
 #footer{
@@ -216,21 +180,11 @@ h1{
 	height:50px;
 	bottom:0;
 	margin: 0 auto;
-	width:820px;
-	background-color:rgba(255,255,255,.95);
-	border-bottom:1px solid lightgray;
-	border-top:1px solid lightgray;
+	width:250px;
 	text-align: center;
 	vertical-align: middle;   
 }
-#copyright{
-	font-family: 'Quattrocento', serif;
-	color:black;
-	float:left;
-	letter-spacing:.75px;
-	font-size:.8em;
-	margin-top:19px;
-}
+
 #footer ul{
 	float:right;
 	margin-top:11px;
@@ -239,7 +193,7 @@ h1{
 #footer ul li{
 	float:left;
 	display:block;
-	padding:0 8px;
+	padding:0 12px;
 
 }
 #footer ul li:hover{
