@@ -90,7 +90,6 @@ body{
 #main-content{
 	position:relative;
 	height:100%;
-	width:100%;
 	border: 10px solid #1ED298;
 }
 
@@ -115,6 +114,9 @@ a {
 .button a{
 	color:rgba(255,255,255,100);
 	letter-spacing:.5;
+}
+.button:hover{
+	background-color:#47e1b0;
 }
 /*---------------*/
 #container{
