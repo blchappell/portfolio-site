@@ -88,7 +88,7 @@ body{
 
 #main-content{
 	position:relative;
-	height:1800px;
+	height:2200px;
 	border: 10px solid #1ED298;
 }
 
@@ -98,28 +98,6 @@ a {
 	text-weight:bold;
 }
 
-/* styles for site borders 
-#left{
-	left:0;
-}
-#right{
-	right:0;
-}
-#left, #right{
-	top:0;
-	bottom:0;
-	width:10px;
-}
-#top{
-	top:0;
-	height:10px;
-}
-#top, #bottom, #left, #right{
-	background-color:#1ED298;
-	position:fixed;
-	z-index:1;
-}
-*/
 
 /* columns */
 section{
@@ -146,7 +124,7 @@ h3{
 	color:#b3b3b3;
 	padding-left:2px;
 	font-weight:400 italic;
-	margin-bottom:2px;
+	margin-bottom:8px;
 }
 
 h4{
@@ -172,7 +150,7 @@ div.rule{
 	height:18px;
 	width:250px;
 	background-color:black;
-	margin-bottom:150px;
+	margin-bottom:200px;
 	padding-top: 5px;
 	margin-right: 12px;
 }
@@ -180,19 +158,39 @@ div.rule{
 	height:18px;
 	width:250px;
 	background-color:black;
-	margin-bottom:50px;
+	margin-bottom:100px;
 	padding-top: 5px;
 	margin-right: 12px;
 }
 .button a {
 	color:white;
 	font-size:13px;
-	padding-top:10px;
+	padding-left:5px;
 }
 .button2 a {
 	color:white;
 	font-size:13px;
-	padding-top:10px;
+	padding-left:5px;
+}*/
+/*
+img:hover{
+-webkit-transition: all .5s ease;
+-webkit-filter:  grayscale(1);
+}
+img{
+-webkit-transition: all .5s ease;
+}*/
+img {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  -webkit-transition: all 1s ease;
+}
+
+/* Disable grayscale on hover */
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
 }
 /*---------------*/
 

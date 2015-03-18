@@ -110,13 +110,14 @@ a {
 	padding-top:13px;
 	text-align:center;
 	font-size:1.1em;
+	transition: background-color .5s ease;
 }
 .button a{
 	color:rgba(255,255,255,100);
 	letter-spacing:.5;
 }
 .button:hover{
-	background-color:#47e1b0;
+	background-color:#19B27B;
 }
 /*---------------*/
 #container{
