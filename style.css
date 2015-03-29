@@ -84,13 +84,42 @@ body{
 	width:100%;
 	top:10px;
 	color:white;
-	background-color:#2a2a2a;
+	background-color:#deddd8;
+}
+
+#north, #south, #east, #west{
+    z-index: 5000;
+    position: fixed;
+    background: #3a3936;
+    display: block;
+}
+#north, #south{
+	height:1em;
+	left:0;
+	right:0;
+}
+#north{
+	top:0;
+}
+#south{
+	bottom:0;
+}
+#east, #west{
+    width: 1em;
+    top: 0;
+    bottom: 0;
+}
+#east{
+	right:0;
+}
+#west{
+	left:0;
 }
 
 #main-content{
 	position:relative;
 	height:100%;
-	border: 10px solid #1ED298;
+	top:40px;
 }
 
 a {
@@ -102,11 +131,11 @@ a {
 .button{
 	height:30px;
 	width:250px;
-	background-color:#1ED298;
+	background-color:#b0b0b0;
 	margin:0 auto;
 	margin-right: 33%;
 	padding-top: 5px;
-	border-bottom:3px solid #228f66;
+	border-bottom:3px solid #66666e;
 	padding-top:13px;
 	text-align:center;
 	font-size:1.1em;
@@ -117,7 +146,8 @@ a {
 	letter-spacing:.5;
 }
 .button:hover{
-	background-color:#19B27B;
+	background-color:#448ccb;
+	border-bottom:3px solid #2a6ca6;
 }
 /*---------------*/
 #container{
@@ -133,7 +163,7 @@ a {
 }
 h1{
 	font-family:'Quattrocento','PT Sans', sans-serif;
-	color:#1ED298;
+	color:#66666e;
 	display:block;
 	position:absolute;
 	font-size:1em;
@@ -146,15 +176,20 @@ h1{
 h2{
 	font-size:40px;
 	line-height:1.7em;
-	padding-bottom:10px;
+	padding-bottom:12px;
 }
 span{
-	border-bottom: 2px solid #1ED298;
+	border-bottom: 2px solid #66666e;
+	transition: border .5s ease;
+}
+span:hover{
+	border-bottom: 2px solid #448ccb;
 }
 p{
 	font-family:'Quattrocento','PT Sans', sans-serif;
 	letter-spacing:1.2;
 	margin-bottom:120px;
+	color:#66666e;
 	
 }
 
@@ -180,7 +215,16 @@ p{
 
 }
 #footer ul li:hover{
-	border-bottom:solid #1ED298 2px
+	border-bottom:solid #448ccb 2px
+}
+.caption{
+	text-align:center;
+	color:#66666e;
+	font-size:.75em;
+	padding-top:50px;
+}
+.caption a:hover {
+	color:#448ccb;
 }
 
 /* Individual Project pages */
@@ -273,7 +317,7 @@ p{
 }
 
 #menu ul li a:hover {;
-	border-bottom:solid #1ED298 2px
+	border-bottom:solid #448ccb 2px
 }
 
 .header-content {

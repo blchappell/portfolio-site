@@ -85,11 +85,39 @@ body{
 	top:10px;
 	
 }
+#north, #south, #east, #west{
+    z-index: 5000;
+    position: fixed;
+    background: #000;
+    display: block;
+}
+#north, #south{
+	height:1em;
+	left:0;
+	right:0;
+}
+#north{
+	top:0;
+}
+#south{
+	bottom:0;
+}
+#east, #west{
+    width: 1em;
+    top: 0;
+    bottom: 0;
+}
+#east{
+	right:0;
+}
+#west{
+	left:0;
+}
 
 #main-content{
 	position:relative;
 	height:2200px;
-	border: 10px solid #1ED298;
+	/*border: 10px solid #1ED298;*/
 }
 
 a {
