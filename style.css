@@ -197,7 +197,7 @@ p{
 	clear:both;
 	height:50px;
 	margin-left:215px;
-	width:252px;
+	width:255px;
 	text-align: center;
 	vertical-align: middle;  
 	margin-top:20px; 
@@ -206,12 +206,13 @@ p{
 #footer ul{
 	float:right;
 	margin-top:11px;
+	width:260px
 
 }
 #footer ul li{
 	float:left;
 	display:block;
-	padding:0 12px;
+	padding:0 13px;
 
 }
 #footer ul li:hover{
