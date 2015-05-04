@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS -->
+	<link rel="stylesheet" href="style.css"> 
+	<!-- JS -->
+	<script src='https://code.jquery.com/jquery-2.1.3.js'></script>
+	<script src='http://cykod.github.io/ScrollFlight/scroll_flight.js'></script>
+	
+	<title>Loan Control</title>
+	<link rel="shortcut icon" href="img/fav.png">
+	
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	
+	<header class="cd-header">
+		<div id="cd-logo"><img src="img/logo.png" alt="wallet"><a href="#0">Loan Control</a></div>
+
+		<nav class="cd-main-nav">
+			<ul>
+				<li><a href="#0">Home</a></li>
+				<li><a href="#0">About</a></li>
+				<li><a href="#0">Organize</a></li>
+				<li><a href="#0">Profile</a></li>
+				<li><a href="#0">Repayment</a></li>
+			</ul>
+		</nav> <!-- cd-main-nav -->
+	</header>
+	
+	
+	<div class='page' id="bg-1">
+	  <div class='iframe-cover'>
+	  		<h1 class="scrolling">So, what happens after graduation <br>when ‘reality’ sets in?</h1>
+			<div class="arrow-container">
+				<img src="img/scroll.png" alt="scroll" class="arrow"/>
+			</div>
+	  </div>
+	  <div class='iframe-wrapper'>
+	    <iframe src='https://www.youtube.com/embed/x1kclI_95DE?autoplay=1&loop=1&controls=0&playsinline=1&playlist=x1kclI_95DE' frameborder="0"></iframe>
+	  </div>
+	</div>
+	
+	<div class='page' id="bg-2">
+		<h3 class="scrolling">INTRODUCING</h3>
+		<h1>Loan Control</h1>
+		<span class='sub'>Take charge of your money, and clear out your loan debt.</span>
+		<div class='img-container'>
+			<img src='img/imac.png' alt='imac' class='imac'>
+			<img src='img/macbook.png' alt='macbook' class='macbook'>
+			<img src='img/ipad.png' alt='ipad' class='ipad'>
+			<img src='img/iphone.png' alt='iphone' class='iphone'>
+		</div>
+	</div>
+	<div class='page' id="bg-3">
+		<div class='animate-container'>
+			<div class='flip-container'><img src='img/arrow.png' alt='arrow' class='flip'></div>
+			<img src='img/wallet.png' alt='wallet' class='wallet'>
+		</div>
+		<p><span>Loan Control</span> is a personal finance application that helps you organize, manage, and pay off your student loan debts. It includes tools to help you <br>plan a strategy and analyze the results fit for your financial situation.</p>
+	</div>
+
+	<div class='page' id="steps">
+		<p><span>First</span>, we'll help you organize your loans and assess your financial situation.</p>
+	</div>
+
+	<div class='page' id="bg-4">
+		<div class='half-pg' id='pg-red'>
+			<h2>Organize your Loans</h2>
+			<ul class='button-container'>
+				<li class='buttons' id='fafsa'>
+					Link to FAFSA
+					<span class='hide' id='one'>
+						Provide your FAFSA login credentials and we'll login to nslds.edu.gov on your behalf and find your student loans.
+					</span>
+				</li>
+				<li class='buttons' id='not-fafsa'>
+					Input Loan Info
+					<span class='hide' id='two'>
+						Input your loan data manually, or import the PDF of your loan statements from nslds.edu.gov.
+					</span>
+				</li>
+			</ul>
+			<div class='half-pg' id='pg-gray'>
+				<h2>My current living situation is:</h2>
+				<ul class='drop-down'>
+					<li class='down'>
+						Paying rent off campus
+						<ul>
+							<li class='drop'>Living in a dorm</li>
+	    					<li class='drop'>Living at home</li>
+	    					<li class='drop'>None of the above</li>
+	    				</ul>
+	    			</li>
+				</ul>
+			</div>
+		</div> <!--End 'pg-red'-->
+	</div>
+
+	<div class='page' id="steps">
+		<p><span>Next</span>, we'll set you up with a dashboard where you can view your accounts, overall progress, and payment dates.</p>
+	</div>
+
+	<div class='page' id="bg-2">
+		<img src='img/macbook-top.png' alt='macbook' class='mac-numbers'>
+		<div id='numbers-container'>
+			<p class='numbers'>$26,756</p>
+			<span class='balance'>Remaining Balance</span>
+		</div>
+	</div>
+
+	<div class='page' id="steps">
+		<p><span>Then</span>, Based on the information you supply us, we can then suggest a payment plan that best matches your needs, breaking down any confusion as to what the next steps are. </p>
+	</div>
+
+	<div class='page' id="bg-5">
+		<div class='half-pg' id='pg-dk-gray'>
+			<h2>Keep track of all of your accounts</h2>
+			<img src='img/accounts.png' alt='accounts' class='accounts'>
+		</div>
+		<div class='half-pg' id='pg-lt-gray'>
+			<h2>Find the ideal repayment plan</h2>
+			<img src='img/plans.png' alt='plans' class='plans'>
+			<div class='faux-button'>
+				<p>Show me the way!</p>
+				<span class='hide2' id='chance'>
+						"Chance favors the prepared mind."
+			</span>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class='page' id="steps">
+		<p><span>Finally</span>, you can add your preferred plan to your accounts through Loan Control, and make payments towards your loans straight through the app. </p>
+	</div>
+
+	<div class='page' id="bg-6">
+		<img src='img/loan-break.png' alt='loan breakdown' class='loans'>
+	</div>
+
+	<div class='page' id="bg-last">
+		<span>Get it now for free</span>
+		<div class='download'>
+			<p>Download for Mac</p>
+			<h5 class='nope'>(Or not, because it's not real)</h5>
+		</div>
+	</div>
+
+	<footer>
+		<div id='footer-container'>
+			<div class='copywrite'>
+				<p>Copywrite &copy; Bethany Chappell 2015</p>
+			</div>
+			<div class='credit'>
+				<p>This is a student project from Massachusetts College of Art and Design.</p>
+			</div>
+		</div>
+	</footer>
+
+	
+	<script src="myscript.js"></script>
+	
+</body>
+</html>
