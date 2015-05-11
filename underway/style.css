@@ -98,9 +98,11 @@ body{
 }
 #north{
 	top:0;
+	position: absolute;
 }
 #south{
 	bottom:0;
+	position: absolute;
 }
 #east, #west{
     width: 1em;
