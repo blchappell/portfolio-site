@@ -388,7 +388,8 @@ h1{
 }
 a img{
 	transition:opacity .7s ease;
+	opacity:1;
 }
 a img:hover{
-	opacity:.25;
+	opacity:.5;
 }
