@@ -132,7 +132,7 @@ section{
 	margin:0 auto;
 	max-width: 1090px;
 	height:800px;
-	padding-top: 80px;
+	padding-top:122px;
 }
 
 
@@ -210,7 +210,14 @@ div.rule{
 #logo{
 	position:relative;
 	height:120px;
+	top:20px;
 
+}
+#logo img {
+  position: absolute;
+  top: 42px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 h1{
 	display:block;
